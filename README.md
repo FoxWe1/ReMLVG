@@ -1,6 +1,6 @@
-# LQVG Remote Sensing Visual Grounding
+# ReMLVG: A RemoteCLIP-Based Framework for Remote Sensing Visual Grounding
 
-This repository is based on the official LQVG implementation for remote sensing visual grounding. Given a natural-language referring expression, the model predicts the bounding box of the described object in a remote sensing image.
+This repository is for remote sensing visual grounding. Given a natural-language referring expression, the model predicts the bounding box of the described object in a remote sensing image.
 
 Original work:
 
