@@ -111,10 +111,10 @@ We report Pr@0.5, Pr@0.6, Pr@0.7, Pr@0.8, Pr@0.9, meanIoU, and cumIoU.
 If you find this work useful, please cite:
 
 ```bibtex
-@article{hu2026remlvg,
+@unpublished{hu2026remlvg,
   title={ReMLVG: A RemoteCLIP-Based Framework for Remote Sensing Visual Grounding},
-  author={Hu, Ling-wei and Qu, Zhong},
-  journal={Preprint},
+  author={Hu, Lingwei and Qu, Zhong},
+  note={Under review at Pattern Recognition Letters},
   year={2026}
 }
 ```
