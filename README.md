@@ -65,15 +65,37 @@ An example directory structure is:
 
 ```text
 data/
-  DIOR-RSVG/
-    images/
-    annotations/
+  DIOR_RSVG/          # DIOR-RSVG dataset
+    ├── Annotations/    # Query expressions and bounding boxes
+    │   ├── 00001.xml/
+    │   └── ..some xml files..
+    ├── JPEGImages/     # Remote sensing images
+    │   ├── 00001.jpg/
+    │   └── ..some jpg files..
+    ├── train.txt       # ID of training set    （26991）
+    ├── val.txt         # ID of validation set  （3829）
+    └── test.txt        # ID of test set        （7500）
   RSVG-HR/
-    images/
-    annotations/
+    ├── Annotations/    # Query expressions and bounding boxes
+    │   ├── rsvg_hr_test.txt
+    │   └── rsvg_hr_train.txt
+    ├── Images/     # Remote sensing images
+    │   ├── 793495_3720135_1024_32616_sport_tennis.jpg
+    │   └── ..some jpg files..
+    
 ```
 
-Please download the datasets from their official sources and update the dataset paths in the configuration files.
+Please download the datasets from their official sources:
+
+- **DIOR-RSVG**: [Download Link](https://github.com/ZhanYang-nwpu/RSVG-pytorch?tab=readme-ov-file)
+- **RSVG-HR**: [Download Link](https://sunyuxi.github.io/publication/GeoVG)
+
+After downloading, update the dataset paths in the configuration files.
+
+## model pretrained
+
+The pretrained model of RemoteCLIP ViT-L/14 is available at [Download Link](https://github.com/ChenDelong1999/RemoteCLIP?tab=readme-ov-file).
+
 
 ## Training
 
