@@ -128,7 +128,7 @@ We report Pr@0.5, Pr@0.6, Pr@0.7, Pr@0.8, Pr@0.9, meanIoU, and cumIoU.
 ./visual_multi.sh
 ```
 
-## Citation
+<!-- ## Citation
 
 If you find this work useful, please cite:
 
@@ -143,4 +143,4 @@ If you find this work useful, please cite:
 
 ## License
 
-The license will be specified when the code is released.
+The license will be specified when the code is released. -->
